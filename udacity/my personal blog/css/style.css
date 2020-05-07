@@ -1,0 +1,29 @@
+/*@import "./reset.css";*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800&display=swap&subset=latin-ext');
+.nav-container{
+    display: flex;
+    align-content: center;
+    background: deepskyblue;
+}
+
+.flex-nav-item{
+    width: 100px;
+    text-align: center;
+    padding:10px ;
+} 
+
+.flex-nav-item:first-child {
+    margin-right: auto;
+}
+.nav-container a {
+    text-decoration: none;
+    /* display: block;
+    padding: 1em; */
+    padding: 10px;
+    color: white;
+}
+
+.nav-container a:hover {
+  background: #1565C0;
+}
+
