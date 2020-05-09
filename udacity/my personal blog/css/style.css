@@ -1,124 +1,138 @@
-/*@import "./reset.css";*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import "./reset.css";
+@import "../css/blog-post.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
 /* general layout style */
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
-a, h1, h2, h3, p {
-    font-family: "Raleway",sans-serif;
-    text-decoration: none;
+a,
+h1,
+h2,
+h3,
+p {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 
 /* logo and main naigation*/
-.main-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: deepskyblue;
-    padding: 10px 70px;
+
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(0, 191, 255);
+  padding: 10px 70px;
 }
 
-.nav-container div{
-    display: inline-block;
-    padding: 0 20px;;
+.nav-container div {
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .nav-container div a {
-    text-decoration: none;
-    color: azure;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: azure;
+  text-transform: uppercase;
 }
 
 .nav-container div a:hover {
-    color: gray;
+  color: gray;
 }
 
-
 .logo {
-    margin-right: auto;
-    font-weight: 800;
-    font-size: 2em;
-    color: white;
-    font-style: italic;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-} 
+  margin-right: auto;
+  font-weight: 800;
+  font-size: 2em;
+  color: white;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
 
 /* main content style*/
+
 .main-flex {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
 .flex-item {
-    background-color: white;
-    text-align: justify;
-    flex-basis: auto;
-    width: 30%;
-    border-radius: 5px;
-    box-shadow:0 2px 4px 0 rgba(0,0,0,.05);
+  background-color: white;
+  text-align: justify;
+  flex-basis: auto;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
 }
 
 .article-img img {
-    max-width: 100%;
-    border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
-.flex-item h2{
-    margin: 10px;
-    padding: 10px;
+.flex-item h2 {
+  margin: 10px;
+  padding: 10px;
 }
 .flex-item p {
-    margin: 5px;
-    padding: 10px;
+  margin: 5px;
+  padding: 10px;
 }
 .content-footer p {
-    margin: 0 10px;
-    padding: 0;
-    font-weight: 600;
-    font-style: italic;
+  margin: 0 10px;
+  padding: 0;
+  font-weight: 600;
+  font-style: italic;
 }
 .content-footer a {
-    float: right;
-    padding: 5px;
+  float: right;
+  padding: 5px;
 }
 
 /* footer section style*/
 
 .footer-container {
-    display: grid;
-    grid-template-rows: 3fr 1fr;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
-.footer-box{
-    background-color: deepskyblue;
+.footer-box {
+  background-color: deepskyblue;
 }
 
 .footer-box h3 {
-    padding: 10px 20px 0 0;
-    margin: 10px 20px 0 0;
-    text-align: right;
+  padding: 10px 20px 0 0;
+  margin: 10px 20px 0 0;
+  text-align: right;
 }
 
 .form-inline {
-    margin-top: 10px;
-    padding-top: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .design {
-    text-align: right;
+  text-align: right;
 }
 .footer-box em {
-    margin: 10px;
+  margin: 10px;
 }
 
 .footer-box a {
-    margin: 0 10px;
+  margin: 0 10px;
+}
+
+/*socila icon color*/
+
+::before {
+  color: white;
 }

@@ -1,0 +1,105 @@
+/*page layout with flexbox*/
+
+.blog-post {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* article style */
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.article {
+  margin: 20px;
+  padding: 20px;
+  flex: 1 1 70%;
+  border: 2px solid gray;
+}
+
+.article p {
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+
+.blog-image img {
+  width: 100%;
+  max-width: 532px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bigletter {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5px;
+}
+
+blockquote {
+  border-left: 3px solid #000000;
+  padding: 10px;
+}
+
+/* aside style */
+
+.aside {
+  margin: 20px;
+  padding: 20px;
+  flex: 1 1 15%;
+  text-align: center;
+  border: 2px solid gray;
+  line-height: 1.5em;
+}
+
+.about-card img {
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about-card button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: 3px solid rgb(0, 191, 255);
+  background: rgb(0, 191, 255);
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.about-card button:hover {
+  background: rgb(125, 223, 255);
+  color: rgb(219, 219, 219);
+  border: 3px solid rgb(0, 191, 255);
+  transition: background-color 0.2s;
+}
+
+.archives {
+  margin-bottom: 20px;
+}
+
+.archives ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.archives a {
+  color: rgb(0, 0, 0);
+}
+
+.archives a:hover {
+  color: rgb(131, 131, 131);
+}
